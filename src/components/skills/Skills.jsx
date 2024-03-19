@@ -7,9 +7,9 @@ const technicalSkills = {
         "Testing Frameworks and Tools" : ["Selenium","TestNG","Rest Assured","Postman"],
         "Cloud Platforms" : ["Azure"],
         "Build Tools" : ["Maven","Gradle"],
-        "Database Management Systems" : ["MySQL","PostgreSQL","Oracle","RDBMS"],
+        "Database Management Systems" : ["MySQL","Postgre SQL","Oracle","RDBMS"],
         "Version Control Systems" : ["SVN", "Git", "Bitbucket"],
-        "Continuous Integration and Deployment Tools" : ["Azure"],
+        "CI/CD Tools" : ["Azure"],
         "Cloud Platforms" : ["TeamCity","Jenkins"]
    }
 const methodologies = {
