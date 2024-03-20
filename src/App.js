@@ -6,7 +6,10 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
 import Qualification from './components/qualification/Qualification';
-
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import ScrollUp from './components/scrollup/ScrollUp';
+import Project from './components/project/Project';
 export default function App(){
   return (
     <>
@@ -16,8 +19,12 @@ export default function App(){
             <About/>
             <Skills/>
             <Experience/>
+            <Project/>
             <Qualification/>
+            <Contact/>
         </main>
+        <Footer/>
+        <ScrollUp />
     </>
   )
 }

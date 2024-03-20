@@ -55,10 +55,14 @@ export default function Data(){
               ></path>
             </svg>
             </h1>
-            <h3 className = "home__subtile"> Automation Test Engineer</h3>
+            <h3 className = "home__subtile"> Automation Test Engineer </h3>
+            <br/>
             <p className = "home__description">
                 Experienced automation test and framework engineer seeking a full-time position as a test
                 automation engineer or back-end software developer.
+            </p>
+            <p className = "home__description">
+                Open to hybrid/onsite positions in the Bay Area and remote opportunities throughout the US.
             </p>
             <a href= "" className ="button button--flex"> Say Hello
                <svg

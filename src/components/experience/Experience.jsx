@@ -7,7 +7,7 @@ export default function Experience(){
        setToggleState(index);
     };
     const data = {
-    "Navis LLC":["0","Oakland, CA", "MARCH 2021 - MAY 2023", "Test Engineer",
+    "Navis LLC":[0,"Oakland, CA", "MARCH 2021 - MAY 2023", "Test Engineer",
         "Design and deliver legacy and automated test suites to cover business use cases for international shipping and yard management",
          "Increased pass rates on 4 CI/CD targets from 75% to 95%",
          "Designed, developed, and implemented Hybrid testing/Keyword-driven automation testing frameworks utilizing Java, TestNG, Groovy, and Selenium WebDriver.",
@@ -15,7 +15,7 @@ export default function Experience(){
          "Leveraged the customer production database backups for configuring my local test environment to deep dive environment-specific issues.",
          "Utilized MySQL and implement SQL queries to validate data updates in sync with UI activities during UI testing",
          "Worked directly with customers during product releases, achieving a 95% customer satisfaction rating with the two largest clients."],
-     "Lumentum, INC":["1","San Jose, CA", "MAY 2020 - AUGUST 2020", "Software Engineer Intern",
+     "Lumentum, INC":[1,"San Jose, CA", "MAY 2020 - AUGUST 2020", "Software Engineer Intern",
          "Developed dashboarding tools for hardware engineers to compare part specifications and historical performance data",
          "Built full-stack on-premise application using Flask, Jinja2, jQuery using MySQL and Oracle data sources to serve Amchart-powered graphs, charts, tables"]
     }
@@ -29,7 +29,7 @@ export default function Experience(){
                 {keyvaluePairs.map(([objectKey, objectValue])=>(
                     <div className="experience__content">
                       <div>
-                        <i class="uil uil-ship experience__icon"></i>
+                        {objectValue[0] === 0 ? <i class="uil uil-ship experience__icon"></i> : <i class="uil uil-circuit experience__icon"></i>}
                         <h3 className="experience__title"> {objectKey}</h3>
                       </div>
 
