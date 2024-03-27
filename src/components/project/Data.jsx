@@ -19,6 +19,9 @@ export const projectsData = [
 // projects
 export const projectsNav = [
   {
+      name: "All",
+  },
+  {
     name: "Completed",
   },
   {
