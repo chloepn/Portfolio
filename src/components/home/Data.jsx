@@ -55,11 +55,10 @@ export default function Data(){
               ></path>
             </svg>
             </h1>
-            <h3 className = "home__subtile"> Automation Test Engineer </h3>
+            <h3 className = "home__subtile"> Software Engineer in Test</h3>
             <br/>
             <p className = "home__description">
-                Experienced automation test and framework engineer seeking a full-time position as a test
-                automation engineer or back-end software developer.
+                Results-driven automation test and framework engineer with extensive experience in developing and deploying efficient test solutions, coupled with a solid background in software development. Seeking a challenging full-time role as a test automation engineer or back-end software developer.
             </p>
             <p className = "home__description">
                 Open to hybrid/onsite positions in the Bay Area and remote opportunities throughout the US.

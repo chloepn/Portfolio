@@ -19,7 +19,6 @@ const inforData ={
                 <img src ={AboutImg} alt="" className ="about__img"></img>
                 <div className = "about__data">
                     <p className = "about__description">
-                        description
                     </p>
                     <Info data = {inforData}/>
 

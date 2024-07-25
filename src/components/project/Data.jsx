@@ -11,7 +11,7 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: "Web App -Daycare for pet",
+    title: "Grocery Mate",
     category: "In Progress",
   }
 ];
